@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: rgba(242, 242, 242, .6);
+    background: rgba(44, 44, 44, 0.6);
     margin: 0;
   }
   
@@ -10,7 +10,7 @@ body {
   
   /*NAVBAR*/
   .navbar {
-    background-color: #31b0d5;
+    background-color: #4bd494;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -20,7 +20,8 @@ body {
   
   .navbar a {
     font-weight: 200;
-    color: white;
+    color: #494949;
+    font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -34,8 +35,8 @@ body {
   
   /*JUMBOTRON*/
   .jumbotron {
-    height: 100vh; /*height to 100% of view height*/
-    background: #31b0d5; /*background color to blue*/
+    height: 60vh; /*height to 100% of view height*/
+    background: #4bd494; /*background color to blue*/
     margin-bottom: 0; /*no bottom margin*/
   
     display: flex;
@@ -46,7 +47,7 @@ body {
     /*TAGLINE UNDER NAME*/
     font-weight: 400;
     font-size: 2em;
-    color: white;
+    color: #494949;
     text-align: center;
     padding-top: 150px;
   }
@@ -106,7 +107,7 @@ body {
   }
   
   .white {
-    background: white;
+    background: #494949;
   }
   
   .side-content {
@@ -138,21 +139,29 @@ body {
   h2 {
     font-weight: 200;
     font-size: 2rem;
-    color: #31b0d5;
+    color: #4bd494;
     text-transform: uppercase;
     text-align: center;
   }
   
   .content-body {
     line-height: 1.5;
-    color: rgba(0,0,0,.75);
+    background-color: #494949;
+    color: white;
+  }
+
+  .skills-box {
+    line-height: 1.5;
+    background-color: #2e2d2d;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
   }
   
   /*EDUCATION*/
   .card {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #2e2d2d;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     margin-bottom: 30px;
@@ -160,7 +169,7 @@ body {
   
   .card-header {
     padding: .75rem 1.25rem;
-    background-color: white;
+    background-color: #494949;
     border-bottom: 1px solid rgba(0,0,0,.075);
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
@@ -174,7 +183,7 @@ body {
   h4 {
     margin: 0;
     font-weight: 400;
-    color: grey;
+    color: white;
   }
   
   .job-title {
@@ -185,7 +194,7 @@ body {
   .project-card {
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: #494949;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 5px;
     margin-bottom: 30px;
@@ -205,7 +214,7 @@ body {
   .project-content {
     flex: 1 1 auto;
     padding: 1.25rem;
-  
+    background-color: #2e2d2d;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -222,7 +231,7 @@ body {
     margin: 7px;
     padding: 5px 10px;
     color: white;
-    background: #31b0d5;
+    /* background: #31b0d5; */
     list-style: none;
     cursor: default;
     font-size: 1.2em;
@@ -230,7 +239,7 @@ body {
   
   /*CONTACT*/
   .blue {
-    background: #3498db;
+    background: #4bd494;
     text-align: center;
   }
   
@@ -246,7 +255,7 @@ body {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #1d6fa5;
+    background: #3c946b;
     color: #fff;
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
@@ -264,7 +273,7 @@ body {
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #3498db;
+    color: #3c946b;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     -webkit-transition: .5s ease all;
@@ -294,4 +303,26 @@ body {
 }
 .bullet-point{
   margin-bottom: .25 in;
+}
+
+.col-sm-2.technologies {
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+}
+
+.technos {
+  margin-top: -55px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.techs {
+  width: 70px;
+  margin: 20px 0px;
+}
+
+a {
+  color: #4bd494;
 }
