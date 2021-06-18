@@ -193,7 +193,7 @@ body {
   /*PROJECTS*/
   .project-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #494949;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 5px;
